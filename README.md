@@ -140,6 +140,15 @@ we plan to implement the following items:
 Undoubtedly, we will make every effort to keep this list up to date. However, the process of knowledge formation and
 systematization is dynamic, which leads to a high speed and frequency of updates to the list.
 
+## Gmail plugin notes
+
+- Use a Gmail App Password (not your primary password). Enable 2FA in Google, create an app password for "Mail", and
+  set it in `GMAIL_APP_PASSWORD`.
+- Default connection uses SSL on port 465. Set `use_tls=True` (or env `GMAIL_USE_TLS=true` in the sample) to use
+  STARTTLS on port 587 instead.
+- Sender defaults to the Gmail username; override with `sender` in `GmailAgent`/`GmailPlugin` if you need a different
+  From header.
+
 ## License
 
     Copyright 2025 SidusAI
