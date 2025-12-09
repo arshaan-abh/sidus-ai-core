@@ -1,1 +1,2 @@
 networkx==3.4.2
+python-gitlab>=4.8.0
