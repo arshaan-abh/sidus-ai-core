@@ -4,7 +4,6 @@ version = "0.0.1.alpha"
 # ...
 dependencies = [
     "networkx==3.4.2",
-    "PyGithub==2.3.0",
 ]
 
 [tool.setuptools]
@@ -14,6 +13,6 @@ packages = [
     # Default plugins
     "sidusai.plugins.deepseek", "sidusai.plugins.openai", "sidusai.plugins.transformer",
     "sidusai.plugins.ethereum", "sidusai.plugins.solana",
-    "sidusai.plugins.telegram", "sidusai.plugins.twitter", "sidusai.plugins.github",
+    "sidusai.plugins.telegram", "sidusai.plugins.twitter",
     "sidusai.plugins.web"
 ]
